@@ -40,7 +40,7 @@ import android.widget.Button;
 		        button03.setOnClickListener(new OnClickListener() {
 		            public void onClick(View v) {
 //		                 //Perform action on click
-		            	 Uri uri = Uri.parse("mailto:theairepository@googlegroups.com");
+		            	 Uri uri = Uri.parse("mailto:theairepository@googlegroups.com?body=\n\n\n\n\nSent from tAIR Companion App");
 		            	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 		            	 startActivity(intent);
 		             }

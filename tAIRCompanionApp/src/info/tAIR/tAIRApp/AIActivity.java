@@ -31,7 +31,7 @@ import android.widget.Button;
 	        button02.setOnClickListener(new OnClickListener() {
 		            public void onClick(View v) {
 		                 //Perform action on click
-		            	 Uri uri = Uri.parse("mailto:getting-started-with-app-inventor@googlegroups.com");
+		            	 Uri uri = Uri.parse("mailto:getting-started-with-app-inventor@googlegroups.com?body=\n\n\n\n\nSent from tAIR Companion App");
 		            	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 		            	 startActivity(intent);
 		             }
@@ -42,7 +42,7 @@ import android.widget.Button;
 		                 button03.setOnClickListener(new OnClickListener() {
 		                     public void onClick(View v) {
 		                          //Perform action on click
-		                     	 Uri uri = Uri.parse("mailto:app-inventor-instructors@googlegroups.com");
+		                     	 Uri uri = Uri.parse("mailto:app-inventor-instructors@googlegroups.com?body=\n\n\n\n\nSent from tAIR Companion App");
 		                     	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 		                     	 startActivity(intent);
 		    	             }
@@ -53,7 +53,7 @@ import android.widget.Button;
 		                 button04.setOnClickListener(new OnClickListener() {
 		                     public void onClick(View v) {
 		                          //Perform action on click
-				            	 Uri uri = Uri.parse("mailto:programming-with-app-inventor@googlegroups.com");
+				            	 Uri uri = Uri.parse("mailto:programming-with-app-inventor@googlegroups.com?body=\n\n\n\n\nSent from tAIR Companion App");
 				            	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 				            	 startActivity(intent);
 		    	             }
@@ -64,7 +64,7 @@ import android.widget.Button;
 		                 button05.setOnClickListener(new OnClickListener() {
 		                     public void onClick(View v) {
 		                          //Perform action on click
-		                     	 Uri uri = Uri.parse("mailto:appinventor@googlegroups.com");
+		                     	 Uri uri = Uri.parse("mailto:appinventor@googlegroups.com?body=\n\n\n\n\nSent from tAIR Companion App");
 				            	 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 				            	 startActivity(intent);
 		         	             }

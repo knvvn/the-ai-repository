@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
 <LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent" android:orientation="vertical">
-<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ScrollView><Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Home" android:id="@+id/Button01"></Button>
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Home" android:id="@+id/Button01"></Button>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Download List" android:id="@+id/Button02"></Button>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Source" android:id="@+id/Button03"></Button>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="tAIR Contributor Sites" android:id="@+id/Button04"></Button>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="About tAIR" android:id="@+id/Button05"></Button>
-
 </LinearLayout>
+</ScrollView>

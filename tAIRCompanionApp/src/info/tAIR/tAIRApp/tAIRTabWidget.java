@@ -45,6 +45,12 @@ public class tAIRTabWidget extends TabActivity {
                           res.getDrawable(R.drawable.ic_tab_ai))
                       .setContent(intent);
         tabHost.addTab(spec);
+        
+        intent = new Intent().setClass(this, AndDevActivity.class);
+        spec = tabHost.newTabSpec("anddev").setIndicator("Android Developer",
+                          res.getDrawable(R.drawable.ic_tab_anddev))
+                      .setContent(intent);
+        tabHost.addTab(spec);
 
         tabHost.setCurrentTab(0);
     }

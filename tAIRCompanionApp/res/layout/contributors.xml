@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
 <LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent" android:orientation="vertical"
   android:background="@drawable/hr">
-<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ScrollView>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="The App Inventor Info Center" android:id="@+id/Button01"></Button>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Resource Management" android:id="@+id/Button02"></Button>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SuaveStudios" android:id="@+id/Button03"></Button>
 <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Back" android:id="@+id/Button04"></Button>
-
 </LinearLayout>
+</ScrollView>
