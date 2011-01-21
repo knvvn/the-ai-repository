@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Android SDK" android:id="@+id/Button01"></Button>
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Android Developer Guide" android:id="@+id/Button02"></Button>
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Android Reference" android:id="@+id/Button03"></Button>
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Android Developer Resources" android:id="@+id/Button04" ></Button>
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="The Android Developer Forum" android:id="@+id/Button05"></Button>
+<Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Post To The Android Developer Forum" android:id="@+id/Button06"></Button>
+</LinearLayout>
+</ScrollView>
